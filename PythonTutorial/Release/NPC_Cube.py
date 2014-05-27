@@ -13,7 +13,7 @@ class NPC_Cube:
 		elif self.timesAnswered == 4:
 			answer = "Please, stop clicking me. Now."
 		else:
-			answer = "You clicked me " + str(self.timesAnswered) + " times. Stop!"
+			answer = "Stop! Counter: " + str(self.timesAnswered) + " times. Stop!"
 
 		self.timesAnswered += 1
 		return answer
