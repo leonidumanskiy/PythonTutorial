@@ -1,0 +1,12 @@
+﻿Build started 26.05.2014 23:50:05.
+     1>Project "G:\Dev\Game Programming 3\PythonTutorial\PythonTutorial\PythonTutorial.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Dev\Game Programming 3\PythonTutorial\Debug\PythonTutorial.exe" /INCREMENTAL /NOLOGO C:\Python32\libs\python32.lib C:\Python32\libs\python32_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Dev\Game Programming 3\PythonTutorial\Debug\PythonTutorial.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Dev\Game Programming 3\PythonTutorial\Debug\PythonTutorial.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol __imp___Py_NegativeRefcount referenced in function "void __cdecl cubeClick(void)" (?cubeClick@@YAXXZ)
+     1>main.obj : error LNK2001: unresolved external symbol __imp___Py_RefTotal
+     1>G:\Dev\Game Programming 3\PythonTutorial\Debug\PythonTutorial.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "G:\Dev\Game Programming 3\PythonTutorial\PythonTutorial\PythonTutorial.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39
